@@ -27,7 +27,7 @@ int main(int argc, char const *argv[])
         perror("Il compilatore non può funzionare senza i seguenti pacchetti\n");
         cout << "Eseguire i seguenti comandi per installarli: \n\n";
         cout << "sudo apt install gcc-arm-linux-gnueabihf\n";
-        cout << "sudo apt install qemu\n";
+        cout << "sudo apt install qemu-user\n";
         cout << "sudo apt install gdb-multiarch\n";
         return 0;
     }
